@@ -5,8 +5,7 @@ const fs = require('fs');
 const path = require('path');
 
 const app = express();
-//add comment here
-//Add more comment
+//Check in the corresponding comment by git
 const PRODUCT_DATA_FILE = path.join(__dirname, 'server-product-data.json');
 const CART_DATA_FILE = path.join(__dirname, 'server-cart-data.json');
 
